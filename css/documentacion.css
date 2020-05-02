@@ -1,0 +1,33 @@
+.wrapper {
+    padding-left: 250px;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-wrapper {
+    margin-left: -250px;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+    border-right: 1px solid honeydew;
+    transition: all 0.4s ease 0s;
+}
+    .indice {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+        .indice li{
+            padding: 5px 0;
+        }
+.page-content {
+    width: 80%;
+    margin-left: auto;
+}
+    .page-content section{
+        margin-bottom: 20px;
+    }

@@ -1,0 +1,49 @@
+/*Bienvenida*/
+.bienvendio{
+    width: 100%;
+    height: 550px;
+    /* background: url(./img/showcase2.jpg) no-repeat center center/cover; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+    .bienvenido h2,
+    .bienvendio p {
+        margin-bottom: 40px;
+    }
+/*Mision y vision*/
+.mision-vision{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 100px;
+    margin: 70px 0;
+}
+    .mision-vision div{
+        padding: 10px;
+        background: rgba(124, 118, 118,.4);
+    }
+    .mision-vision h3{
+        text-transform: uppercase;
+        font-size: 20px;
+        margin: 15px 0;
+    }
+.novedades{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid:20px;
+    margin: 20px 0;
+}
+.novedades img {
+    width: 100%;
+    height: 180px;
+  }
+  
+  .novedades h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
