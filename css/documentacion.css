@@ -25,3 +25,14 @@
 .page-content section:last-of-type{
     border-bottom: none;
 }
+@media (max-width: 500px){
+    .contenido{
+        flex-direction: column;
+    }
+    .sidebar{
+        border: none;
+    }
+    .page-content section:first-child{
+        border-top: 1px solid snow;
+    }
+}
